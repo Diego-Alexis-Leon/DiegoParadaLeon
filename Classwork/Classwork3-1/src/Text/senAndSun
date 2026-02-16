@@ -1,0 +1,58 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+
+    <rect x="0" y="0" width="400" height="300" fill="#FFFFFF" />
+
+    <rect x="49" y="10" width="2" height="80" fill="#FF0000" />
+    <rect x="10" y="49" width="80" height="2" fill="#FF0000" />
+
+    <polygon points="20,20 20,22 80,82 80,80" fill="#FF0000" />
+    <polygon points="80,20 80,22 20,82 20,80" fill="#FF0000" />
+
+    <circle cx="50" cy="50" r="25" fill="#F1C40F" />
+<rect x="0" y="200" width="400" height="100" fill="#28B463" />
+    <path
+      d="
+        M 0 200
+        Q 20 160 40 200
+        Z
+            M 80 200
+        Q 100 160 120 200
+        Z
+                M 160 200
+        Q 180 160 200 200
+        Z
+                M 240 200
+        Q 260 160 280 200
+        Z
+                M 320 200
+        Q 340 160 360 200
+
+      "
+      fill="#28B463"
+      stroke="black"
+      stroke-width="0"
+    />
+
+    <path
+          d="
+            M 40 200
+            Q 60 240 80 200
+            Z
+            M 120 200
+            Q 140 240 160 200
+            Z
+                        M 200 200
+            Q 220 240 240 200
+            Z
+                        M 280 200
+            Q 300 240 320 200
+            Z
+                        M 360 200
+            Q 380 240 400 200
+          "
+          fill="#FFFFFF"
+          stroke="black"
+          stroke-width="0"
+        />
+
+</svg>
