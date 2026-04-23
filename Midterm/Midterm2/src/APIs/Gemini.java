@@ -68,7 +68,7 @@ public class Gemini extends Prompts{
 
     public static void generateImage(String description, String outputPath, String p) throws Exception {
         try (Client client = Client.builder()
-                .apiKey(System.getenv("GEMINI_API_KEY_M"))
+                .apiKey(System.getenv("GEMINI_API_KEY"))
                 .build()) {
 
             System.out.println(client.apiKey());

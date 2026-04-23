@@ -17,7 +17,7 @@ public class OpenAI extends Prompts{
     public static void generateImage(String description, String outputPath,String p)
             throws IOException, InterruptedException {
 
-        String apiKey = System.getenv("OpenAI_Token_Y");
+        String apiKey = System.getenv("OpenAI_Token");
         if (apiKey == null || apiKey.isBlank()) {
             throw new IllegalStateException("No se encontró OPENAI_API_KEY en las variables de entorno.");
         }
@@ -72,7 +72,7 @@ public class OpenAI extends Prompts{
     public static String generatePhrase(String description)
             throws IOException, InterruptedException {
 
-        String apiKey = System.getenv("OPENAI_API_KEY");
+        String apiKey = System.getenv("OpenAI_Token");
         if (apiKey == null || apiKey.isBlank()) {
             throw new IllegalStateException("OPENAI_API_KEY was not found.");
         }
@@ -115,7 +115,7 @@ public class OpenAI extends Prompts{
     public static void generateSpeech(String text, String outputPath, String phrase)
             throws IOException, InterruptedException {
 
-        String apiKey = System.getenv("OPENAI_API_KEY");
+        String apiKey = System.getenv("OpenAI_Token");
         if (apiKey == null || apiKey.isBlank()) {
             throw new IllegalStateException("No se encontró OPENAI_API_KEY.");
         }
