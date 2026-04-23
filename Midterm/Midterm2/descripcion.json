@@ -1,0 +1,28 @@
+{
+  "segments": [
+    {
+      "start_time": "00:00",
+      "end_time": "00:05",
+      "visual_description": "Vista aérea del Monumento a la Independencia, conocido como El Ángel, rodeado por modernos rascacielos y oficinas bajo un cielo azul despejado en la Ciudad de México.",
+      "location": "Ciudad de México, México",
+      "image_prompt": "The Angel of Independence monument in Mexico City, surrounded by tall modern skyscrapers on a sunny day, high-angle cinematic shot.",
+      "audio_narration": "Iniciamos nuestro viaje en la Ciudad de México, contemplando la majestuosidad del Ángel de la Independencia rodeado por la modernidad de sus rascacielos."
+    },
+    {
+      "start_time": "00:05",
+      "end_time": "00:15",
+      "visual_description": "Toma aérea vertical en movimiento que muestra la Basílica de Nuestra Señora de Guanajuato con sus vibrantes colores amarillo y rojo, rodeada por el denso tejido urbano de casas coloniales y calles serpenteantes.",
+      "location": "Guanajuato, México",
+      "image_prompt": "Vertical drone shot of the yellow and red Basilica of Our Lady of Guanajuato, focusing on its domes and towers amidst colorful colonial architecture.",
+      "audio_narration": "Descubrimos el encanto colonial de Guanajuato, recorriendo desde las alturas su icónica basílica y el laberinto de sus calles históricas."
+    },
+    {
+      "start_time": "00:16",
+      "end_time": "00:20",
+      "visual_description": "Vista panorámica de la Catedral de Guadalajara y la plaza central con una fuente, destacando las torres neogóticas de la catedral y la actividad de la gente en el espacio público.",
+      "location": "Guadalajara, México",
+      "image_prompt": "Panoramic sunset view of the Guadalajara Cathedral and its plaza with a central fountain, showcasing the architectural detail of the towers.",
+      "audio_narration": "Terminamos en Guadalajara, la Perla Tapatía, admirando la imponente arquitectura de su catedral y la vida que emana de su plaza principal."
+    }
+  ]
+}
